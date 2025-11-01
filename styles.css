@@ -3,7 +3,11 @@ body{
     box-sizing: border-box;
     padding: 0px;
     bottom: 0px;
+
+    width: 100%;
+    overflow-x: hidden;
 }
+
 p{
     font-family:"Montserrat", sans-serif;
     font-weight: 300;
@@ -59,6 +63,8 @@ header{
   justify-content: center;
   justify-items: center;
   padding: 27px;
+
+  width: 100%;
 
 }
 
