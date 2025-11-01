@@ -31,45 +31,111 @@
 }
 
 .card {
-  width: 252px;       /* largura fixa */
-  height: 452px;
+  min-width: 280px;
+  
+     background: 
+    linear-gradient(
+      to top,
+      /* início forte */
+      rgba(197, 174, 210, 0.726), /* meio suave */
+      rgba(197, 174, 210, 0)    /* transparência no final */
+    ),
+    url('./imagens/cards_img/card_1.png');
+
+
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
+  
   box-shadow: 0 4px 10px rgba(0,0,0,0.6);
   text-align: center;
   padding-bottom: 20px;
   overflow: hidden;
 
+  height: 452px;
+  width: 252px;
+  min-width: 280px;
+
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   flex-shrink: 0;
 
-  /* Gradiente sobre a imagem */
-  position: relative;
+ 
+
+  justify-content: space-between;
+
 }
 
-.card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(197, 174, 210, 0.726), rgba(197, 174, 210, 0));
-  z-index: 1;
-  pointer-events: none;
+#n2{
+
+  min-width: 280px;
+  
+     background: 
+    linear-gradient(
+      to top,
+      /* início forte */
+      rgba(197, 174, 210, 0.726), /* meio suave */
+      rgba(197, 174, 210, 0)    /* transparência no final */
+    ),
+    url('./imagens/cards_img/card_2.png');
+
+
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  text-align: center;
+  padding-bottom: 20px;
+  overflow: hidden;
+
+  height: 452px;
+  width: 252px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  justify-content: space-between;
+
+
+
 }
 
-.card{
-  position: relative;
-  z-index: 2;
+#n3{
+
+  min-width: 280px;
+  
+     background: 
+    linear-gradient(
+      to top,
+      /* início forte */
+      rgba(197, 174, 210, 0.726), /* meio suave */
+      rgba(197, 174, 210, 0)    /* transparência no final */
+    ),
+    url('./imagens/cards_img/card_3.png');
+
+
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  text-align: center;
+  padding-bottom: 20px;
+  overflow: hidden;
+
+  height: 452px;
+  width: 252px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  justify-content: space-between;
+  
 }
-
-/* Definindo as imagens individuais */
-#n1 { background-image: url('./imagens/cards_img/card_1.png'); }
-#n2 { background-image: url('./imagens/cards_img/card_2.png'); }
-#n3 { background-image: url('./imagens/cards_img/card_3.png'); }
-
 
 .card h2 {
   font-family: 'AMORIA', sans-serif;
