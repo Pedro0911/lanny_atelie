@@ -6,6 +6,8 @@
   overflow: visible;
 
   margin-bottom: 50px;
+
+  padding-bottom:50px ;
 }
 
 .container-cards {
@@ -16,6 +18,16 @@
   transition: transform 0.5s ease;
   overflow-x: auto;
   overflow-y: hidden;
+
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+
+  /* opcional: centralizar no desktop */
+  justify-content: flex-start;
+
+  /* remove margens internas invisíveis */
+  padding: 10px;
+
 }
 
 .card {
