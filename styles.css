@@ -47,7 +47,7 @@ header{
       rgba(197, 174, 210, 0.4), /* meio suave */
       rgba(197, 174, 210, 0)    /* transparência no final */
     ),
-    url(/imagens/header_img/capa_img.png);
+    url(./imagens/header_img/capa_img.png);
 
   background-position: center;
   background-repeat: no-repeat;
@@ -130,7 +130,7 @@ footer{
       rgba(197, 174, 210, 0.4), /* meio suave */
       rgba(197, 174, 210, 0)    /* transparência no final */
     ),
-    url(/imagens/header_img/capa_img.png);
+    url(./imagens/header_img/capa_img.png);
 
   background-position: center;
   background-repeat: no-repeat;
