@@ -47,7 +47,7 @@ header{
       rgba(197, 174, 210, 0.4), /* meio suave */
       rgba(197, 174, 210, 0)    /* transparência no final */
     ),
-    url(./imagens/header_img/capa_img.png);
+    url('./imagens/header_img/capa_img.png');
 
   background-position: center;
   background-repeat: no-repeat;
@@ -117,11 +117,6 @@ footer{
 
 @media screen and (max-width: 720px) {
 
-  .carrossel{
-
-    padding: 20px;
-  }
-
     header {
   background: 
     linear-gradient(
@@ -130,7 +125,7 @@ footer{
       rgba(197, 174, 210, 0.4), /* meio suave */
       rgba(197, 174, 210, 0)    /* transparência no final */
     ),
-    url(./imagens/header_img/capa_img.png);
+    url('./imagens/header_img/capa_img.png');
 
   background-position: center;
   background-repeat: no-repeat;

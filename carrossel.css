@@ -24,7 +24,7 @@
       rgba(197, 174, 210, 0.726), /* meio suave */
       rgba(197, 174, 210, 0)    /* transparência no final */
     ),
-    url(./imagens/cards_img/card_1.png);
+    url('./imagens/cards_img/card_1.png');
 
 
 
@@ -58,7 +58,7 @@
       rgba(197, 174, 210, 0.726), /* meio suave */
       rgba(197, 174, 210, 0)    /* transparência no final */
     ),
-    url(./imagens/cards_img/card_2.png);
+    url('./imagens/cards_img/card_2.png');
 
 
 
@@ -94,7 +94,7 @@
       rgba(197, 174, 210, 0.726), /* meio suave */
       rgba(197, 174, 210, 0)    /* transparência no final */
     ),
-    url(./imagens/cards_img/card_3.png);
+    url('./imagens/cards_img/card_3.png');
 
 
 
@@ -175,6 +175,12 @@
 /* Responsivo */
 @media (max-width: 720px) {
 
+  
+  .carrossel{
+
+    padding: 20px;
+  }
+
   .card {
   min-width: 85%;
   min-width: 280px;
@@ -186,7 +192,7 @@
       rgba(197, 174, 210, 0.4), /* meio suave */
       rgba(197, 174, 210, 0)    /* transparência no final */
     ),
-    url(./imagens/cards_img/card_1.png);
+    url('./imagens/cards_img/card_1.png');
 
 
 
