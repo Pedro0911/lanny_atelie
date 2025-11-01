@@ -12,6 +12,7 @@
   display: flex;
   gap: 15px;
   transition: transform 0.5s ease;
+  overflow-x: auto;
 }
 
 .card {
@@ -42,6 +43,8 @@
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
+
+  flex: 0 0 auto;
 
   justify-content: space-between;
 
