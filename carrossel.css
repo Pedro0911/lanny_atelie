@@ -18,64 +18,116 @@
   transition: transform 0.5s ease;
   overflow-x: auto;
   overflow-y: hidden;
-
-  -webkit-overflow-scrolling: touch;
-  scroll-behavior: smooth;
-
-  /* opcional: centralizar no desktop */
-  justify-content: flex-start;
-
-  /* remove margens internas invisíveis */
-  padding: 10px;
+    
 
 }
 
 .card {
-  position: relative;
-  width: 252px;
-  height: 452px;
+  min-width: 280px;
+  
+     background: 
+    linear-gradient(
+      to top,
+      /* início forte */
+      rgba(197, 174, 210, 0.726), /* meio suave */
+      rgba(197, 174, 210, 0)    /* transparência no final */
+    ),
+    url('./imagens/cards_img/card_1.png');
+
+
+
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  
   box-shadow: 0 4px 10px rgba(0,0,0,0.6);
   text-align: center;
+  padding-bottom: 20px;
   overflow: hidden;
+
+  height: 452px;
+  width: 252px;
+  min-width: 280px;
 
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* conteúdo mais para baixo */
   flex-shrink: 0;
+
+  flex: 0 0 auto;
+
+  justify-content: space-between;
+
 }
 
-/* Gradiente mais intenso no rodapé */
-.card::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 60%; /* cobre apenas a parte inferior */
-  background: linear-gradient(
-    to top,
-    rgba(197, 174, 210, 0.85) 0%,
-    rgba(197, 174, 210, 0.55) 30%,
-    rgba(197, 174, 210, 0.15) 70%,
-    rgba(197, 174, 210, 0) 100%
-  );
-  z-index: 1;
-  pointer-events: none;
+#n2{
+
+  min-width: 280px;
+  
+     background: 
+    linear-gradient(
+      to top,
+      /* início forte */
+      rgba(197, 174, 210, 0.726), /* meio suave */
+      rgba(197, 174, 210, 0)    /* transparência no final */
+    ),
+    url('./imagens/cards_img/card_2.png');
+
+
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  text-align: center;
+  padding-bottom: 20px;
+  overflow: hidden;
+
+  height: 452px;
+  width: 252px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  justify-content: space-between;
+
+
+
 }
 
-.card > * {
-  position: relative;
-  z-index: 2; /* mantém o texto e botão acima */
+#n3{
+
+  min-width: 280px;
+  
+     background: 
+    linear-gradient(
+      to top,
+      /* início forte */
+      rgba(197, 174, 210, 0.726), /* meio suave */
+      rgba(197, 174, 210, 0)    /* transparência no final */
+    ),
+    url('./imagens/cards_img/card_3.png');
+
+
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+  text-align: center;
+  padding-bottom: 20px;
+  overflow: hidden;
+
+  height: 452px;
+  width: 252px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  justify-content: space-between;
+  
 }
-
-/* Imagens individuais */
-#n1 { background-image: url('./imagens/cards_img/card_1.png'); }
-#n2 { background-image: url('./imagens/cards_img/card_2.png'); }
-#n3 { background-image: url('./imagens/cards_img/card_3.png'); }
-
 
 .card h2 {
   font-family: 'AMORIA', sans-serif;
