@@ -3,7 +3,7 @@
   width: 100%;
   max-width: 950px;
   margin: auto;
-  overflow: hidden;
+  overflow: visible;
 
   margin-bottom: 50px;
 }
@@ -15,6 +15,7 @@
   gap: 15px;
   transition: transform 0.5s ease;
   overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .card {
@@ -42,6 +43,8 @@
 
   height: 452px;
   width: 252px;
+  min-width: 280px;
+
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
@@ -187,8 +190,7 @@
   }
 
   .card {
-  min-width: 85%;
-  min-width: 280px;
+  min-width: 85vh;
   
    background: 
     linear-gradient(
