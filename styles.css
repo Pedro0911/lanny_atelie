@@ -144,7 +144,12 @@ footer{
   justify-items: center;
   padding: 27px;
 
-  width: auto;
+  width: 100%;
+}
+
+footer{
+
+  width: 100%;
 }
     
 }
