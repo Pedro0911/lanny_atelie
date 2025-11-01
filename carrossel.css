@@ -10,6 +10,8 @@
 
 .container-cards {
   display: flex;
+  flex-wrap: nowrap;
+
   gap: 15px;
   transition: transform 0.5s ease;
   overflow-x: auto;
