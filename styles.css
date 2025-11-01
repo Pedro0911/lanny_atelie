@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    bottom: 0px;
+}
+p{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 22px;
+    color: #F9F9F9;
+}
+
+a{
+
+  text-decoration: none;
+
+  font-family:"Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 22px;
+  color: #000000;
+
+}
+
+#sobre_mim{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'AMORIA', sans-serif;
+}
+
+
+
+
+/*base*/
+header{
+    /*background-image: url(/imagens/);*/
+     background: 
+    linear-gradient(
+      to top,
+      rgba(197, 174, 210, 0.7), /* início forte */
+      rgba(197, 174, 210, 0.4), /* meio suave */
+      rgba(197, 174, 210, 0)    /* transparência no final */
+    ),
+    url(/imagens/header_img/capa_img.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 27px;
+
+}
+
+section h1{
+    text-align: center;
+}
+
+
+
+
+
+footer{
+
+  background: linear-gradient(90deg,
+      #f7b7cc 0%,     /* tom rosa esquerdo */
+      #C5AED2 50%,    /* seu tom lavanda no centro */
+      #b7dff5 100%    /* tom azul direito */
+    );
+    /* nitidez/contraste */
+    background-repeat:no-repeat;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+  
+
+  }
+
+  footer #social-media{
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+  
+  }
+
+  footer #social-media a {
+
+    margin: 10px;
+
+  }
+
+
+
+/*mobile-config*/
+
+@media screen and (max-width: 720px) {
+
+  .carrossel{
+
+    padding: 20px;
+  }
+
+    header {
+  background: 
+    linear-gradient(
+      to top,
+      rgba(197, 174, 210, 0.7), /* início forte */
+      rgba(197, 174, 210, 0.4), /* meio suave */
+      rgba(197, 174, 210, 0)    /* transparência no final */
+    ),
+    url(/imagens/header_img/capa_img.png);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 27px;
+}
+    
+}
