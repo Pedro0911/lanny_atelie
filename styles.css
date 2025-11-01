@@ -137,6 +137,8 @@ footer{
   justify-content: center;
   justify-items: center;
   padding: 27px;
+
+  width: auto;
 }
     
 }
