@@ -190,7 +190,8 @@
   }
 
   .card {
-  min-width: 85vh;
+  min-width: 85%;
+  min-width: 280px;
   
    background: 
     linear-gradient(
