@@ -185,6 +185,11 @@
 /* Responsivo */
 @media (max-width: 720px) {
 
+  #catalogo_carrossel{
+    width: 100%;
+    padding: 27px;
+  }
+
   
   .carrossel{
 
