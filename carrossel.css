@@ -192,10 +192,11 @@
   }
 
   
-  /*.carrossel{
+  .carrossel{
 
     padding: 20px;
-  }*/
+    padding-left: 0px;
+  }
 
   .card {
   min-width: 85%;
