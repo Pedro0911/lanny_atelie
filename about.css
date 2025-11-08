@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+p{
+    font-family:"Montserrat", sans-serif;
+    font-weight: 300;
+    text-align: center;
+    font-size: 22px;
+    color: #F9F9F9;
+}
+
+a{
+
+  text-decoration: none;
+
+  font-family:"Montserrat", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 22px;
+  color: #000000;
+
+  cursor: pointer;
+
+}
+
+h1{
+    font-family: 'AMORIA', sans-serif;
+}
+
+
+/*base*/
+header{
+    /*background-image: url(/imagens/);*/
+     background:
+    linear-gradient(
+      to top,
+      rgba(197, 174, 210, 0.7), /* início forte */
+      rgba(197, 174, 210, 0.4), /* meio suave */
+      rgba(197, 174, 210, 0)    /* transparência no final */
+    ),
+    url('./imagens/header_img/capa_sobre_mim.png');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 27px;
+
+  width: 100%;
+
+}
+
+section{
+
+    display: flex;
+    flex-direction: column;
+
+}
+#minha_históriia p{
+    color: #000000;
+}
+
+
+
+.micro_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    text-justify: auto;
+}
+
+.micro_sec img{
+
+    width: 232px;
+    height: 232px;
+}
+
+.micro_sec h1{
+    margin-bottom: 10px;
+}
+
+#ecobag div{
+    text-align: left;
+}
+
+#roupas div{
+    text-align: right   ;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+
+  background: linear-gradient(90deg,
+      #f7b7cc 0%,     /* tom rosa esquerdo */
+      #C5AED2 50%,    /* seu tom lavanda no centro */
+      #b7dff5 100%    /* tom azul direito */
+    );
+    /* nitidez/contraste */
+    background-repeat:no-repeat;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    width: 100%;
+
+  
+
+  }
+
+  footer #social-media{
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+  
+  }
+
+  footer #social-media a {
+
+    margin: 10px;
+
+    width: 100%;
+
+  }
+
+  #sobre_mim{
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+    border-top: 0px;
+}
