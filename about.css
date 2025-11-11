@@ -210,11 +210,15 @@ footer{
 }
 
 #minha_históriia{
-   margin: 0;
+    margin: 0;
     box-sizing: border-box;
     padding: 27px;
     width: 100%;
     overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
