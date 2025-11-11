@@ -1,3 +1,9 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
 body{
     margin: 0;
     box-sizing: border-box;
@@ -222,7 +228,10 @@ footer{
 
 }
 
-
+.micro_sec h1{
+    margin-bottom: 10px;
+    margin-top: 14px;
+}
 
 
 
