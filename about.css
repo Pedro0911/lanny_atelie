@@ -160,3 +160,66 @@ footer{
     text-decoration: underline;
     border-top: 0px;
 }
+
+
+
+
+/*mobile-config*/
+
+@media screen and (max-width: 720px) {
+
+
+
+    body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+header {
+  background: 
+    linear-gradient(
+      to top,
+      rgba(197, 174, 210, 0.7), /* início forte */
+      rgba(197, 174, 210, 0.4), /* meio suave */
+      rgba(197, 174, 210, 0)    /* transparência no final */
+    ),
+    url('./imagens/header_img/capa_sobre_mim.png');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  padding: 27px;
+  width: 100%;
+}
+
+
+footer{
+
+  width: 100%;
+  padding: 27px;
+}
+
+#minha_históriia{
+   margin: 0;
+    box-sizing: border-box;
+    padding: 27px;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+}
