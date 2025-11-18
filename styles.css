@@ -12,6 +12,10 @@ font-size: 18px;
 
 }
 
+#indicacao{
+  color: #363636;
+}
+
 
 body{
     margin: 0;
@@ -91,7 +95,7 @@ header{
 
 section h1{
     text-align: center;
-    margin-bottom: 24px;
+    margin-bottom: -14px;
 }
 
 footer{
