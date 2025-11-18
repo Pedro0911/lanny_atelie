@@ -2,6 +2,23 @@
   box-sizing: border-box;
 }
 
+#dev{
+
+text-decoration: none;
+
+margin-top: 10px;
+
+}
+
+
+.imgsobre{
+  box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+}
+
+.titulo_sobre{
+  margin-top: -4px;
+}
+
 
 
 body{
@@ -36,6 +53,7 @@ a{
 
 h1{
     font-family: 'AMORIA', sans-serif;
+    
 }
 
 
