@@ -8,6 +8,8 @@ text-decoration: none;
 
 margin-top: 10px;
 
+font-size: 18px;
+
 }
 
 
@@ -192,6 +194,16 @@ footer{
 
   width: 100%;
   padding: 27px;
+}
+
+#dev{
+
+text-decoration: none;
+
+margin-top: 10px;
+
+font-size: 12px;
+
 }
     
 }
